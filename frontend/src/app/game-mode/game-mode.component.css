@@ -1,0 +1,42 @@
+/* Centered card-like container */
+.mode-container {
+    max-width: 400px;
+    margin: 60px auto;           /* centers horizontally, adds top/bottom space */
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #2c2c2c;   /* dark background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: #ffffff;              /* light text for contrast */
+  }
+  
+  /* Center the heading */
+  .mode-container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Container for the two buttons */
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Buttons styling */
+  .buttons-container button {
+    flex: 1;                     /* make each button fill available space */
+    margin: 0 0.5rem;            /* spacing between buttons */
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;   /* primary button color */
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Hover effect */
+  .buttons-container button:hover {
+    background-color: #0056b3;
+  }  
